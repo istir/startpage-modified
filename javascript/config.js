@@ -22,7 +22,6 @@
         { key: 'd', name: 'Diki', url: 'https://www.diki.pl/', search: '/slownik-angielskiego?q={}' },
         { key: 's', name: 'SoundCloud', url: 'https://soundcloud.com/', search: '/search?q={}' },
       ] },
-
        { name: "Fate", commands: [
         { key: 'fw', name: 'Wikia', url: 'http://fategrandorder.wikia.com/wiki', search: "/Special:Search?query={}" },
         { key: 'fg', name: 'Gamepress', url: 'https://grandorder.gamepress.gg', search: "/search?q={}"},
