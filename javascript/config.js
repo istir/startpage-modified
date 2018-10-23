@@ -26,7 +26,6 @@
         { key: 'fw', name: 'Wikia', url: 'http://fategrandorder.wikia.com/wiki', search: "/Special:Search?query={}" },
         { key: 'fg', name: 'Gamepress', url: 'https://grandorder.gamepress.gg', search: "/search?q={}"},
         { key: 'fc', name: 'Cirnopedia', url: 'http://fate-go.cirnopedia.org/index.php', search: 'false' },
-        { key: 'fs', name: 'Spreadsheets', url: 'https://drive.google.com/drive/u/0/folders/1C9GwR5oZXaJPmUaTQ-a327a5ajGIILVi', search: 'false' },
 
       ] },
     ],
