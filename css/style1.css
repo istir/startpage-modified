@@ -3,21 +3,21 @@
   0% {
     -webkit-transform: translateY(0) translateX(0);
             transform: translateY(0) translateX(0);
-  }
+          }
   100% {
     -webkit-transform: translateY(-100px) translateX(-100px);
             transform: translateY(-100px) translateX(-100px);
-  }
+          }
 }
 @keyframes slide-tl {
   0% {
     -webkit-transform: translateY(0) translateX(0);
             transform: translateY(0) translateX(0);
-  }
+          }
   100% {
     -webkit-transform: translateY(-100px) translateX(-100px);
             transform: translateY(-100px) translateX(-100px);
-  }
+          }
 }
 @-webkit-keyframes fadeOut {
     from {opacity: 1;}
@@ -29,7 +29,6 @@
     to {opacity: 0;}
 }
 
-
 body {
   position: absolute;
   top: 0;
@@ -38,26 +37,12 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  color: #fafafa; /* zegarek, ciemny #222 jasny #fafafa */
+  color: #fafafa;
   font-family: 'Product Sans Regular', sans-serif;
   background: url("tilde.png");
   background-position-x: center;
 }
 
-
-
-/*main {
-  position: absolute;
-  top: 50%;
-  right: 0;
-  left: 0;
-  width: 90%;
-  max-width: 310px;
-  margin: 0 auto;
-  transform: translateY(-100px);
-  text-align: center;
-  z-index: 1;
-}*/
 .clock {
   position:absolute;
   font-size: 5rem;
@@ -68,18 +53,22 @@ body {
   transition: .5s;
   z-index: 1;
 }
+
 #clockm {
   text-align: left;
   right: 0;
 }
+
 #clockh {
   text-align: right;
   left:0;
 }
+
 .slide-tl {
 	-webkit-animation: slide-tl 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	        animation: slide-tl 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
+
 time {
   position:absolute;
   font-size: 5rem;
@@ -90,8 +79,6 @@ time {
   width:250px;
   z-index: 1;
   transition: .5s;
-
-  /*transform: translate(50%,0);*/
   z-index: 3;
 
 }
@@ -102,7 +89,6 @@ input {
   margin: 0;
   border: 0;
   outline: 0;
-  //background: #222;
   background-color: #2e3440;
   border: 2px solid #fac0f2;
   font-size: 19px;
@@ -118,11 +104,10 @@ input {
 }
 input:hover {
   width: 100px;
-  }
+}
 input:focus {
   width: 300px;
 }
-
 
 #js-search-form {
   bottom: 25%;
@@ -130,28 +115,18 @@ input:focus {
   position:absolute;
   z-index: 1;
   transition: 0.3s;
-//  transform: translateX(-50%);
-z-index: 3;
-
+  z-index: 3;
 }
 
 #js-overlay {
   padding: 20px;
-
 }
 
-
-
-ul,
-li {
+ul, li {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-
-
-
-
 
 .search-suggestions {
   border-radius: 0 0 2px 2px;
@@ -190,25 +165,20 @@ li {
   z-index: 2;
 }
 
-
 .overlay[data-toggled='true'] {
   visibility: hidden;
   transform: translateY(0);
   opacity: 0;
 }
 
-
 #js-search-form[data-toggled='true'] {
   left: calc(50% + 2px);
   bottom: 45%;
-
   transform: translateX(-50%);
-
 }
 
 #js-search-input[data-toggled='true'] {
   text-align: center;
-
 }
 
 #js-clock[data-toggled='true'] {
@@ -216,9 +186,7 @@ li {
   right: 50%;
   bottom: 50%;
   transform: translate(50%,30%);
-
 }
-
 
 .category {
   width: 100%;
@@ -248,8 +216,6 @@ li {
   float: left;
   width: 2.5em;
   margin-right: 1em;
-  //border-radius: 50%;
-  //background-color: rgba(255, 255, 255, 0.1);
   background: rgba(250, 192, 242, 0.6);
   border: 2px solid #fac0f2;
   font-size: 0.8em;
@@ -278,15 +244,6 @@ li {
   transform: translateX(0);
   opacity: 1;
 }
-/*
-@media (min-width: 1000px) {
-  .overlay {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2em;
-    font-size: 1.3vw;
-  }*/
 
   .lists {
     display: flex;
@@ -298,4 +255,3 @@ li {
     width: 10em;
     margin-bottom: 0;
   }
-}
