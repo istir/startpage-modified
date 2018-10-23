@@ -1,3 +1,6 @@
+# Modified for personal use
+Modified version of [cadejscroggins/tilde v5.0.0](https://github.com/cadejscroggins/tilde), below original readme
+
 # Tilde
 
 Inspired by [/r/startpages](https://www.reddit.com/r/startpages)—the idea is to have a homepage for your browser that is functional and sexy.
