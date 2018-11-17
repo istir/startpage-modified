@@ -1,32 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
+#git>a {
+  text-decoration: none;
+  color: #777;
+  font-size: 20px;
+}
+
+#git {
+  background-color: #e0e0e0;
+  width: 200px;
+  height: 30px;
+  line-height: 30px;
+  transform: rotate(-45deg);
+  text-align: center;
+  margin-left: -60px;
+  margin-top: 30px;
+}
 
 @-webkit-keyframes slide-tl {
   0% {
     -webkit-transform: translateY(0) translateX(0);
-            transform: translateY(0) translateX(0);
-          }
+    transform: translateY(0) translateX(0);
+  }
+
   100% {
     -webkit-transform: translateY(-100px) translateX(-100px);
-            transform: translateY(-100px) translateX(-100px);
-          }
+    transform: translateY(-100px) translateX(-100px);
+  }
 }
+
 @keyframes slide-tl {
   0% {
     -webkit-transform: translateY(0) translateX(0);
-            transform: translateY(0) translateX(0);
-          }
+    transform: translateY(0) translateX(0);
+  }
+
   100% {
     -webkit-transform: translateY(-100px) translateX(-100px);
-            transform: translateY(-100px) translateX(-100px);
-          }
+    transform: translateY(-100px) translateX(-100px);
+  }
 }
+
 @-webkit-keyframes fadeOut {
-    from {opacity: 1;}
-    to {opacity: 0;}
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
 }
 
 @keyframes fadeOut {
-    from {opacity: 1;}
-    to {opacity: 0;}
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
 }
 
 body {
@@ -38,13 +69,13 @@ body {
   margin: 0;
   padding: 0;
   color: #fafafa;
-  font-family: 'Product Sans Regular', sans-serif;
+  font-family: 'PT Sans','Product Sans Regular', sans-serif;
   background: url("tilde.png");
   background-position-x: center;
 }
 
 .clock {
-  position:absolute;
+  position: absolute;
   font-size: 5rem;
   letter-spacing: 6px;
   width: calc(50% + 11px);
@@ -61,26 +92,25 @@ body {
 
 #clockh {
   text-align: right;
-  left:0;
+  left: 0;
 }
 
 .slide-tl {
-	-webkit-animation: slide-tl 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: slide-tl 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  -webkit-animation: slide-tl 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: slide-tl 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 time {
-  position:absolute;
+  position: absolute;
   font-size: 5rem;
   letter-spacing: 6px;
   text-align: right;
-  bottom:-15px;
-  right:0px;
-  width:250px;
+  bottom: -15px;
+  right: 0px;
+  width: 250px;
   z-index: 1;
   transition: .5s;
   z-index: 3;
-
 }
 
 input {
@@ -93,18 +123,19 @@ input {
   border: 2px solid #fac0f2;
   font-size: 19px;
   color: #fff;
-  font-family: 'Product Sans', sans-serif;
+  font-family: 'PT Sans','Product Sans', sans-serif;
   -webkit-appearance: none;
   -moz-appearance: none;
-
   height: 30px;
   transition: .5s;
   padding-left: 3px;
   z-index: 3;
 }
+
 input:hover {
   width: 100px;
 }
+
 input:focus {
   width: 300px;
 }
@@ -112,7 +143,7 @@ input:focus {
 #js-search-form {
   bottom: 25%;
   left: 20%;
-  position:absolute;
+  position: absolute;
   z-index: 1;
   transition: 0.3s;
   z-index: 3;
@@ -185,7 +216,7 @@ ul, li {
   text-align: center;
   right: 50%;
   bottom: 50%;
-  transform: translate(50%,30%);
+  transform: translate(50%, 30%);
 }
 
 .category {
@@ -245,13 +276,13 @@ ul, li {
   opacity: 1;
 }
 
-  .lists {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-  }
+.lists {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
 
-  .category {
-    width: 10em;
-    margin-bottom: 0;
-  }
+.category {
+  width: 10em;
+  margin-bottom: 0;
+}
